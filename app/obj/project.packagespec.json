@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "E:\\_Hussein\\projects\\Github\\OpenShift\\openshiftDemo\\app\\app.csproj",
+    "projectName": "app",
+    "projectPath": "E:\\_Hussein\\projects\\Github\\OpenShift\\openshiftDemo\\app\\app.csproj",
+    "outputPath": "E:\\_Hussein\\projects\\Github\\OpenShift\\openshiftDemo\\app\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Npgsql": {
+          "target": "Package",
+          "version": "3.2.5"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
