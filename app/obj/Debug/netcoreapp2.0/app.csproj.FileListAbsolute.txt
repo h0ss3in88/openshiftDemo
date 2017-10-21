@@ -8,3 +8,13 @@ E:\_Hussein\projects\Github\Demo\app\obj\Debug\netcoreapp2.0\app.AssemblyInfoInp
 E:\_Hussein\projects\Github\Demo\app\obj\Debug\netcoreapp2.0\app.AssemblyInfo.cs
 E:\_Hussein\projects\Github\Demo\app\obj\Debug\netcoreapp2.0\app.dll
 E:\_Hussein\projects\Github\Demo\app\obj\Debug\netcoreapp2.0\app.pdb
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\bin\Debug\netcoreapp2.0\app.deps.json
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.json
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.dev.json
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\bin\Debug\netcoreapp2.0\app.dll
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\bin\Debug\netcoreapp2.0\app.pdb
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\obj\Debug\netcoreapp2.0\app.csproj.CoreCompileInputs.cache
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\obj\Debug\netcoreapp2.0\app.AssemblyInfoInputs.cache
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\obj\Debug\netcoreapp2.0\app.AssemblyInfo.cs
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\obj\Debug\netcoreapp2.0\app.dll
+E:\_Hussein\projects\Github\OpenShift\openshiftDemo\app\obj\Debug\netcoreapp2.0\app.pdb
