@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using app.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +23,9 @@ namespace app
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IRunner>(s => new Runner("server=postgresql;user id=Hussein;password=123456;database=chinook;"));
+            // services.AddTransient<IRunner>(s => new Runner("server=localhost;user id=Hussein;password=123456;database=chinook;"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

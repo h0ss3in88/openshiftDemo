@@ -1,0 +1,34 @@
+﻿@model System.Collections.Generic.IEnumerable<app.Models.Actor>
+
+@{
+  ViewBag.Title = "Actors";
+  Layout = "_Layout";
+}
+<h2>Actors</h2>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-responsive table-striped">
+        <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Last Update</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var actor in Model)
+        {
+          <tr>
+            <td>@actor.Id</td>
+            <td>@actor.FirstName</td>
+            <td>@actor.LastName</td>
+            <td>@actor.LastUpdate</td>
+          </tr>
+        }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
